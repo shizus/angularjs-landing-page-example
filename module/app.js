@@ -1,5 +1,6 @@
 var ourApp = angular.module('logisticApp', [
-    "ngRoute"
+    "ngRoute",
+    "ngResource"
 ]);
 
 ourApp.config(['$routeProvider',
