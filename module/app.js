@@ -1,15 +1,15 @@
-var owerApp = angular.module('logisticApp', [
-    "ng-route"
+var ourApp = angular.module('logisticApp', [
+    "ngRoute"
 ]);
 
-owerApp.config(['$routeProvider',
+ourApp.config(['$routeProvider',
     function($routeProvider) {
         $routeProvider.
-            when('/index', {
+            when('/', {
                 templateUrl: 'module/index/index.html',
                 controller: 'indexCtrl'
             }).
             otherwise({
-                redirectTo: '/index'
+                redirectTo: '/'
             });
     }]);
