@@ -26,7 +26,8 @@ ourApp.controller('requestCtrl', [ "$scope", "$resource", "$location", function(
 
     $scope.claimRequest = function (request) {
         console.log(request.id);
-        $location.path("./#/request");
+        //$location.path("./#/request");
+        
     };
 
     init();
