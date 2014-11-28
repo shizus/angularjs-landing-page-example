@@ -1,6 +1,7 @@
 ourApp.config(['$translateProvider', function ($translateProvider) {
     $translateProvider.translations('en', {
         'TAGLINE': 'The simpliest and more <strong>Powerful</strong> <br> way to <strong>send</strong> your mail',
+        'ENTER_EMAIL': 'Enter your email',
         'FOOTER': '&copy; 2014 <b>LogisticApp.co</b>. All Rights Reserved',
         'CUSTOMERS': '<h2>How use our services?</h2><h4>Companies and private users work with us.</h4>',
         'REGISTER_NOW': 'REGISTER NOW',
@@ -27,6 +28,7 @@ ourApp.config(['$translateProvider', function ($translateProvider) {
 
     $translateProvider.translations('es', {
         'TAGLINE': 'La manera más simple y <strong>Poderosa</strong> <br>de <strong>enviar</strong> tus paquetes',
+        'ENTER_EMAIL': 'Ingresa tu correo electrónico',
         'FOOTER': '&copy; 2014 <b>LogisticApp.co</b>. Todos los derechos reservados',
         'CUSTOMERS': '<h2>¿Quiénes usan nuestro servicio?</h2><h4>Empresas y usuarios privados trabajan con nosotros</h4>',
         'REGISTER_NOW': 'REGISTRATE YA',
@@ -37,13 +39,13 @@ ourApp.config(['$translateProvider', function ($translateProvider) {
         'SEND_PACKAGE': 'Si quieres enviar un paquete.',
         'CREATE_USER': 'Creas tu usuario',
         'IS_SIMPLE': 'Es simple y fácil',
-        'PUBLISH': 'Publicas a donde quieres enviar el paquete',
+        'PUBLISH': 'Publicas a dónde quieres enviar el paquete',
         'USERS_TAKE_CARE': 'Nuestos usuarios te lo llevan',
         "CHEAPER": 'Por menos de lo que cualquier servicio te cobraría.',
         'EAR_MONEY': 'Si quieres ganar dinero enviando paquetes.',
         'CHECK_LIST': 'Ves el listado de envíos requeridos',
         'TAKE_ORDER': 'Tomas un pedido',
-        'WE_GIVE_YOU_CONTACT_INFO': 'Te contactamos con el usuario que solicita el envio para que coordines todo.',
+        'WE_GIVE_YOU_CONTACT_INFO': 'Te contactamos con el usuario que solicita el envío para que coordines todo.',
         'TESTIMONIALS': 'Testimonios de nuestros clientes',
         'TESTIMONIAL_1': 'Envié mi sobre por solos AR$ 15 y llego en menos de 40 minutos',
         'LAWYER': 'Abogada',

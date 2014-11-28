@@ -23,7 +23,8 @@
                 <form class="form-horizontal" role="form" ng-submit="addUser()" id="subscribeForm" method="POST">
                     <div class="form-group">
                         <div class="col-md-7 col-sm-6 col-sm-offset-1 col-md-offset-0">
-                            <input class="form-control input-lg" name="email" ng-model="email" type="email" id="address" placeholder="Enter your email" data-validate="validate(required, email)" required="required">
+                            <input class="form-control input-lg" name="email" ng-model="email" type="email" id="address" placeholder="{{ 'ENTER_EMAIL' | translate }}"
+                                   data-validate="validate(required, email)" required="required">
                         </div>
                         <div class="col-md-5 col-sm-4">
                             <button type="submit" class="btn btn-success btn-lg" translate="SUBSCRIBE_NOW"></button>
@@ -117,7 +118,7 @@
         <div class="col-md-12 text-center">
             <img src="images/flat-mockup-template.png" alt="flat-mockup-template">
         </div>
-    </section><! --/section --> -->
+    </section><! --/section -->
 
     <div class="section-title">
         <h4 translate="EAR_MONEY"></h4>
