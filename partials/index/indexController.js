@@ -14,9 +14,9 @@ ourApp.controller('indexCtrl', [ "$scope", "$resource", function($scope, $resour
         emailResponse.get(function(data) {
             $scope.email = "";
             if (data.response) {
-                $scope.message = "Gracias por tu interes. Pronto recibiras un mail con toda la informacion.";
+                $scope.message = "SUBSCRIBE_OK";
             } else {
-                $scope.message = "Gracias por tu interes. Pronto recibiras un mail con toda la informacion.";
+                $scope.message = "SUBSCRIBE_OK";
             }
         });
     }

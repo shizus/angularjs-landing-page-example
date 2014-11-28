@@ -37,7 +37,7 @@
 		<div class="container">
 			<section class="row breath">
 				<div class="col-md-12 footerlinks">
-					<p>&copy; 2014 LogisticApp.co. All Rights Reserved</p>
+					<p translate="FOOTER"></p>
 				</div>
 			</section><! --/section -->
 		</div><! --/container -->
@@ -69,9 +69,18 @@
 
 <!-- angular scripts -->
 <script src="lib/angular/angular-route.min.js"></script>
-    <script src="lib/angular/angular-resource.min.js"></script>
+<script src="lib/angular/angular-resource.min.js"></script>
 
-<!-- angular custom modules -->
-<script src="module/app.js"></script>
-<script src="module/index/indexController.js"></script>
-<script src="module/request-list/requestController.js"></script>
+<!-- Third party libraries -->
+<script src="lib/angular-translate/angular-translate.min.js"></script>
+
+
+<!-- angular app declaration-->
+<script src="partials/app.js"></script>
+
+<!-- angular configuration files -->
+<script src="conf/translations.js"></script>
+
+<!-- angular partials controllers -->
+<script src="partials/index/indexController.js"></script>
+<script src="partials/request-list/requestController.js"></script>
