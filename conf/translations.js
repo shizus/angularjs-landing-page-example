@@ -1,6 +1,6 @@
 ourApp.config(['$translateProvider', function ($translateProvider) {
     $translateProvider.translations('en', {
-        'TAGLINE': 'The simplest and more <strong>Powerful</strong> <br> way to <strong>deliver</strong> your mail',
+        'TAGLINE': 'The simplest and most <strong>Powerful</strong> <br> way to <strong>deliver</strong> your mail',
         'ENTER_EMAIL': 'Enter your email',
         'FOOTER': '&copy; 2014 <b>LogisticApp.co</b>. All Rights Reserved',
         'CUSTOMERS': '<h2>Who use our services?</h2><h4>Companies and private users work with us.</h4>',
