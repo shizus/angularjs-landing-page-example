@@ -3,7 +3,7 @@ ourApp.config(['$translateProvider', function ($translateProvider) {
         'TAGLINE': 'The simpliest and more <strong>Powerful</strong> <br> way to <strong>deliver</strong> your mail',
         'ENTER_EMAIL': 'Enter your email',
         'FOOTER': '&copy; 2014 <b>LogisticApp.co</b>. All Rights Reserved',
-        'CUSTOMERS': '<h2>How use our services?</h2><h4>Companies and private users work with us.</h4>',
+        'CUSTOMERS': '<h2>Who use our services?</h2><h4>Companies and private users work with us.</h4>',
         'REGISTER_NOW': 'REGISTER NOW',
         'SUBSCRIBE_NOW': 'Subscribe Now',
         'SUBSCRIBE_OK': 'Thanks for your interest. You will receive an e-mail with all the info soon.',
