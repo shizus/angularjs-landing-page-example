@@ -1,6 +1,6 @@
 ourApp.config(['$translateProvider', function ($translateProvider) {
     $translateProvider.translations('en', {
-        'TAGLINE': 'The simpliest and more <strong>Powerful</strong> <br> way to <strong>send</strong> your mail',
+        'TAGLINE': 'The simpliest and more <strong>Powerful</strong> <br> way to <strong>deliver</strong> your mail',
         'ENTER_EMAIL': 'Enter your email',
         'FOOTER': '&copy; 2014 <b>LogisticApp.co</b>. All Rights Reserved',
         'CUSTOMERS': '<h2>How use our services?</h2><h4>Companies and private users work with us.</h4>',
@@ -54,5 +54,7 @@ ourApp.config(['$translateProvider', function ($translateProvider) {
 
     });
 
-    $translateProvider.preferredLanguage('es');
+    var userLang = navigator.language || navigator.userLanguage;
+    var defaultLanguage = userLang.split('-')[0];
+    $translateProvider.preferredLanguage(defaultLanguage);
 }]);
