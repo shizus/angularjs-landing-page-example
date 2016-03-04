@@ -48,7 +48,7 @@ ourApp.config(['$translateProvider', function ($translateProvider) {
         'WE_GIVE_YOU_CONTACT_INFO': 'Te contactamos con el usuario que solicita el envío para que coordines todo.',
         'TESTIMONIALS': 'Testimonios de nuestros clientes',
         'TESTIMONIAL_1': 'Envié mi sobre por solos AR$ 15 y llego en menos de 40 minutos',
-        'LAWYER': 'Abogada',
+        'LAWYER': 'Abogado',
         'TESTIMONIAL_2': 'Envié un paquete de Recoleta a Puerto Madero por AR$ 20',
         'CUBIKA_CEO': 'CEO de <a href=\"index.html#\">Cubika</a>'
 
