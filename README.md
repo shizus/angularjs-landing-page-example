@@ -6,6 +6,11 @@ Now its an example of a little app made with AngularJS and Bootstrap. A useful a
 
 It supports i18n thanks to angular-translate
 
+live example
+============
+
+You can see a live online example in http://latorregabriel.com/angularjs-landing-page-example/
+
 Credits
 =======
 
